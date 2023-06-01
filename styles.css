@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(231, 235, 223);
+    height: 80px;
+}
+.nav-bar{
+    float: right;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.nav-bar li button{
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.nav-bar li button:hover{
+    border-bottom: 2px solid red;
+    border-radius: 20%;
+}
