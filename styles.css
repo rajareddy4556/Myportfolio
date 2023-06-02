@@ -1,5 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 header{
-    background-color: rgb(231, 235, 223);
+    background-color: rgb(35, 187, 98);
     height: 80px;
 }
 .nav-bar{
@@ -9,7 +13,6 @@ header{
     padding: 0;
 }
 .nav-bar li button{
-    font-size: larger;
     text-transform: uppercase;
     background-color: transparent;
     padding: 10px;
@@ -19,4 +22,17 @@ header{
 .nav-bar li button:hover{
     border-bottom: 2px solid red;
     border-radius: 20%;
+}
+@media  screen and (max-width:500px){
+    header{
+        background-color: white;
+    }
+    .nav-bar{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        float:inline-end;
+        flex-direction: column;
+        border: 1px solid #ccc;
+    }
 }

@@ -6,10 +6,12 @@ window.onload = function() {
     document.getElementById("contactme").style.display = "none";
     document.getElementById("projects").style.display = "none";
 }
+var deviceWidth = window.innerWidth;
+
 home =() =>{
     document.getElementById("home").style.marginTop="10px";
-    document.getElementById("home").style.display="flex";
-    document.getElementById("home").style.justifyContent = "center";
+    document.getElementById("home").style.display="block";
+    //document.getElementById("home").style.justifyContent = "center";
     document.getElementById("aboutme").style.display="none";
     document.getElementById("b2").style.borderBottom="none";
     document.getElementById("b1").style.borderBottom="2px solid red";
@@ -25,8 +27,8 @@ aboutme =() =>{
     document.getElementById("b1").style.borderBottom="none";
     document.getElementById("b2").style.borderBottom="2px solid red";
     document.getElementById("b2").style.borderRadius="20%"
-    document.getElementById("aboutme").style.display = "flex";
-    document.getElementById("aboutme").style.justifyContent = "center";
+    document.getElementById("aboutme").style.display = "block";
+    //document.getElementById("aboutme").style.justifyContent = "center";
     document.getElementById("b4").style.borderBottom="none";
     document.getElementById("contactme").style.display = "none";
     document.getElementById("b3").style.borderBottom="none";
@@ -39,8 +41,8 @@ projects =() => {
     document.getElementById("b1").style.borderBottom="none";
     document.getElementById("b2").style.borderBottom="none";
     document.getElementById("b4").style.borderBottom="none";
-    document.getElementById("projects").style.display="flex";
-    document.getElementById("projects").style.justifyContent="center";
+    document.getElementById("projects").style.display="block";
+    //document.getElementById("projects").style.justifyContent="center";
     document.getElementById("home").style.display="none";
     document.getElementById("contactme").style.display="none";
     document.getElementById("aboutme").style.display="none";
@@ -56,8 +58,8 @@ contactme =() => {
     document.getElementById("b4").style.borderRadius="20%";
     document.getElementById("home").style.display = "none";
     document.getElementById("aboutme").style.display="none";
-    document.getElementById("contactme").style.display="flex";
-    document.getElementById("contactme").style.justifyContent = "center";
+    document.getElementById("contactme").style.display="block";
+    //document.getElementById("contactme").style.justifyContent = "center";
     document.getElementById("b3").style.borderBottom="none";
     document.getElementById("projects").style.display="none";
 
